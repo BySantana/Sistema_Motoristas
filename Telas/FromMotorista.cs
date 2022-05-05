@@ -16,25 +16,23 @@ namespace Aula80_Exercicio.Telas
         {
             InitializeComponent();
         }
-        List<Classes.Motorista> motoristas = Form1.motoristas;
+        //List<Classes.Motorista> motoristas = Form1.motoristas;
+        
         private void FromMotorista_Load(object sender, EventArgs e)
         {
-            cbListaMotoristas.Items.AddRange(motoristas.ToArray());
+            cbListaMotoristas.Items.AddRange(Form1.motoristas1.ListMotoristas.ToArray());
         }
 
-        private void cbListaMotoristas_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < motoristas.Count; i++)
+            for (int i = 0; i < Form1.motoristas1.ListMotoristas.Count; i++)
             {
-                if (cbListaMotoristas.Text == motoristas[i].Nome)
+                if (cbListaMotoristas.Text == Form1.motoristas1.ListMotoristas[i].Nome)
                 {
-                    txtValor.Text = motoristas[i].ValorTotal.ToString();
-                    txtViagens.Text = motoristas[i].QtdeViagens.ToString();
+                    txtValor.Text = Form1.motoristas1.ListMotoristas[i].ValorTotal.ToString();
+                    txtViagens.Text = Form1.motoristas1.ListMotoristas[i].QtdeViagens.ToString();
                 }
             }
         }

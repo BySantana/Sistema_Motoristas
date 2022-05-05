@@ -17,7 +17,8 @@ namespace Aula80_Exercicio
             InitializeComponent();
             
         }
-        public static List<Classes.Motorista> motoristas = Classes.Motorista.MotoristasRepository();
+        //public static List<Classes.Motorista> motoristas = Classes.Motorista.MotoristasRepository();
+        public static Classes.ControleMotoristas motoristas1 = new Classes.ControleMotoristas();
 
         private void motoristasToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -57,12 +58,11 @@ namespace Aula80_Exercicio
 
         private void btnConfirmar_1_Click(object sender, EventArgs e)
         {
-            foreach(Classes.Motorista motorista in motoristas)
+            foreach(Classes.Motorista motorista in motoristas1.ListMotoristas)
             {
-                if(motorista.Nome == "Motorista 1")
+                if(motorista.Nome == motoristas1.ListMotoristas[0].Nome)
                 {
-                    motorista.QtdeViagens++;
-                    motorista.ValorTotal += double.Parse(txtValor_1.Text);
+                    motoristas1.CalcularViagens(label1.Text, double.Parse(txtValor_1.Text));
                     MessageBox.Show("VIAGEM INICIADA!", "AVISO");
                 }
             }
@@ -96,12 +96,11 @@ namespace Aula80_Exercicio
 
         private void btnConfirmar_2_Click(object sender, EventArgs e)
         {
-            foreach (Classes.Motorista motorista in motoristas)
+            foreach (Classes.Motorista motorista in motoristas1.ListMotoristas)
             {
-                if (motorista.Nome == "Motorista 2")
+                if (motorista.Nome == motoristas1.ListMotoristas[1].Nome)
                 {
-                    motorista.QtdeViagens++;
-                    motorista.ValorTotal += double.Parse(txtValor_2.Text);
+                    motoristas1.CalcularViagens("Motorista 2", double.Parse(txtValor_2.Text));
                     MessageBox.Show("VIAGEM INICIADA!", "AVISO");
                 }
             }
@@ -135,12 +134,11 @@ namespace Aula80_Exercicio
 
         private void btnConfirmar_3_Click(object sender, EventArgs e)
         {
-            foreach (Classes.Motorista motorista in motoristas)
+            foreach (Classes.Motorista motorista in motoristas1.ListMotoristas)
             {
-                if (motorista.Nome == "Motorista 3")
+                if (motorista.Nome == motoristas1.ListMotoristas[2].Nome)
                 {
-                    motorista.QtdeViagens++;
-                    motorista.ValorTotal += double.Parse(txtValor_3.Text);
+                    motoristas1.CalcularViagens("Motorista 3", double.Parse(txtValor_3.Text));
                     MessageBox.Show("VIAGEM INICIADA!", "AVISO");
                 }
             }

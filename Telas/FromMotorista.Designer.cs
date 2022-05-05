@@ -43,7 +43,7 @@
             this.cbListaMotoristas.Name = "cbListaMotoristas";
             this.cbListaMotoristas.Size = new System.Drawing.Size(121, 21);
             this.cbListaMotoristas.TabIndex = 0;
-            this.cbListaMotoristas.SelectedIndexChanged += new System.EventHandler(this.cbListaMotoristas_SelectedIndexChanged);
+            
             // 
             // label1
             // 
