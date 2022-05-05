@@ -1,0 +1,13 @@
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\bin\Debug\Aula80-Exercicio.exe.config
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\bin\Debug\Aula80-Exercicio.exe
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\bin\Debug\Aula80-Exercicio.pdb
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80-Exercicio.csproj.AssemblyReference.cache
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80-Exercicio.csproj.SuggestedBindingRedirects.cache
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80_Exercicio.Form1.resources
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80_Exercicio.Properties.Resources.resources
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80-Exercicio.csproj.GenerateResource.cache
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80-Exercicio.csproj.CoreCompileInputs.cache
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80-Exercicio.exe
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80-Exercicio.pdb
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80_Exercicio.Telas.RelatorioViagens.resources
+C:\Users\nanar\source\repos\CSharpIntermediario\Aula80-Exercicio\obj\Debug\Aula80_Exercicio.Telas.FromMotorista.resources
